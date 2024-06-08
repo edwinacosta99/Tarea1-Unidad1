@@ -1,0 +1,25 @@
+void main() {
+// 1. Crear una clase Rectangulo con propiedades largo y ancho y un método getter
+// que calcule el área, debe incluir un constructor con ambas propiedades obligatorias
+  
+  }
+  
+  class Rectangulo{
+    //propiedades
+    final double largo;
+    final double ancho;
+    double area=0;
+    
+    
+    //constructor
+    Rectangulo({required this.largo, required this.ancho});
+   
+    //calculo area
+    double get area2 => this.ancho * this.largo;
+    
+    double calculo(double largo, double ancho){
+      return largo*ancho;
+    }
+                
+  }
+    
