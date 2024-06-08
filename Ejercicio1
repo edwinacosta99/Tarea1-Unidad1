@@ -1,0 +1,15 @@
+void main() {
+  
+// 2. Crear una función que reciba un arreglo como parámetro y devuelva una copia del arreglo (este debe //ser una copia integra y no solo una referencia al arreglo original).
+  
+  final postres = ["cheesecake", "flan","donas", "chocolate", "galleta con chispas"];
+  
+
+  for(final postre in postres)
+  {
+   print(postre);
+  }
+
+
+  
+}
