@@ -1,0 +1,22 @@
+bool NumerosRepetidos(List<int> numeros) {
+  // Crear un conjunto para almacenar números únicos
+  Set<int> numerosUnicos = {};
+
+  // Iterar sobre la lista de números
+  for (int numero in numeros) {
+    if (numerosUnicos.contains(numero)) {
+      return true;
+    } else {
+      numerosUnicos.add(numero);
+    }
+  }
+  return false;
+}
+
+void main() {
+  List<int> lista1 = [1, 2, 3, 4, 5];
+  List<int> lista2 = [1, 2, 3, 4, 5, 2];
+
+  print(NumerosRepetidos(lista1)); 
+  print(NumerosRepetidos(lista2)); 
+}
