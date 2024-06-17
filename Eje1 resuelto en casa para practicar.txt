@@ -1,0 +1,18 @@
+class Rectangulo {
+  final double largo;
+  final double ancho;
+
+  // Constructor 
+  Rectangulo({required this.largo, required this.ancho});
+
+  // calcular el área
+  double get area => largo * ancho;
+}
+
+void main() {
+  // Crear una instancia de Rectangulo
+  Rectangulo rectangulo = Rectangulo(largo: 5.0, ancho: 3.0);
+
+  // Imprimir el área
+  print(rectangulo.area);
+}
